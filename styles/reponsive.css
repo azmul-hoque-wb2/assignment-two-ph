@@ -1,0 +1,47 @@
+@media screen and (max-width:768px) {
+    .nav-container {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        flex-direction: column;
+    }
+
+    .nav-left {
+        width: 90%;
+        margin: 0 auto;
+
+        justify-content: center;
+    }
+
+    .nav-right {
+        width: 90%;
+    }
+
+    .nav-right ul {
+        margin: 20px 0;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+
+
+@media screen and (max-width:576px) {
+
+    .nav-left {
+        width: 90%;
+
+    }
+
+    .nav-right {
+        width: 90%;
+    }
+
+    .nav-right ul {
+        margin: 10px 0;
+        gap: 10px;
+    }
+}

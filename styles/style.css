@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background: #FFF;
+    box-shadow: 1px 4px 30px 3px rgba(0, 0, 0, 0.15);
+}
+
+.nav-container {
+    min-height: 10vh;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-left {
+    width: 50%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-left img {
+    width: 60px;
+}
+
+.nav-left h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.nav-left h1 span {
+    color: #ff65b6;
+}
+
+.nav-right {
+    width: 50%;
+
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+ul a,
+.follow-list a {
+    margin: 0 10px;
+}
+
+.nav-right ul,
+.follow-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+}
+
+.follow-list {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 5px 10px;
+}
+
+.fa-youtube {
+    color: #ff0000;
+}
+
+.fa-facebook {
+    color: #4ec5f7;
+}
+
+.fa-twitter {
+    color: #1da1f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.red {
+    border: 2px solid red;
+}
+
+.green {
+    border: 2px solid green;
+}
+
+.blue {
+    border: 2px solid blue;
+}
+
+.black {
+    border: 2px solid black;
+}
+
+.yellow {
+    border: 2px solid yellow;
+}
