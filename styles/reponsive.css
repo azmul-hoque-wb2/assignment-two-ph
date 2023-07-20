@@ -58,6 +58,29 @@
         gap: 20px;
     }
     /* funny videos ends here */
+    .play-instantly-container {
+    
+        gap: 40px;
+        flex-direction: column;
+
+    }
+    .play-instantly-left {
+        width: 90%;
+        /* text-align: right;   */
+        text-align: center;
+    }
+    .play-instantly-right {
+        width: 70%;
+    }
+    .play-instantly-right>img{
+        width: 400px;
+        height: 500px;
+    }
+    .play-instantly-right img{
+        width: 100%;
+        object-fit: cover;
+    }
+    /* online game ends here  */
 }
 
 
@@ -111,4 +134,8 @@
          gap: 20px;
      }
      /* funny videos ends here */
+
+
+     /* i did not need to write for online game   */
+     
 }
