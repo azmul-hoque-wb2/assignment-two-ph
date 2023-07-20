@@ -81,6 +81,22 @@
         object-fit: cover;
     }
     /* online game ends here  */
+    .box>img{
+        width: 30px;
+        height: 30px;
+        border-radius: 20px;
+    }
+    
+    .box{
+        gap: 10px;
+    
+        margin: 10px;
+        padding: 10px;
+    
+        flex-basis: 150px;
+        font-size: 12px;
+    }
+    /* types of games ends here */
 }
 
 
@@ -136,6 +152,8 @@
      /* funny videos ends here */
 
 
-     /* i did not need to write for online game   */
-     
+     /* i did not need to write code for online game  section */
+
+     /* i did not need to write code for types of games section   */
+
 }
