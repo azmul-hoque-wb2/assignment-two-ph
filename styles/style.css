@@ -91,6 +91,80 @@ li a {
     color: #1da1f2;
 }
 
+/* navbar ends here  */
+.banner-container {
+    max-width: 1200px;
+    min-height: 70vh;
+    margin: 40px auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-left {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title-text {
+    color: #0B0223;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.text-gradient {
+    font-size: 40px;
+    font-weight: 700;
+
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.description-text {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.btn-pink {
+    min-width: 25px;
+    display: inline;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    color: white;
+    background: #F948B2;
+    border: none;
+    margin-right: 20px;
+}
+
+.btn-sky {
+    min-width: 25px;
+    display: inline;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 15px;
+    color: white;
+    background: #4EC5F7;
+    border: none;
+    margin-right: 20px;
+}
+
+.banner-right {
+    width: 50%;
+}
+
+.banner-right img {
+    width: 100%;
+}
+
+/* banner section ends here */
 
 
 
