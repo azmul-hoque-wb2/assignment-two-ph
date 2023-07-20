@@ -166,8 +166,70 @@ li a {
 
 /* banner section ends here */
 
+.funny-videos-container{
+    max-width: 1200px;
+    min-height: 70vh;
+    margin: 40px auto;
 
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 
+.funny-videos-description{
+    text-align: center;
+}
+
+.funny-videos{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.funny-videos>div{
+    /* border: 2px solid tomato; */
+}
+
+.funny-videos div img{
+width: 100%;
+}
+
+.video-description{
+    margin-top: 20px;
+}
+
+.hide{}
+
+.img-div{
+    position: relative;
+}
+
+.img-div>div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.349);
+}
+
+.img-div:hover #appear{
+display: block !important;
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+
+padding: 50% 0;
+color: #F948B2;
+font-size: 30px;
+border-radius: 10px;
+}
+
+/* funny videos ends here  */
 
 
 
